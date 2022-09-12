@@ -10,7 +10,7 @@ Rels has older releases.
 
 ## Google Chrome (Windows)
 1) Download the registry file ([as zip](https://cdn.jsdelivr.net/gh/FastForwardTeam/releases/winreg/allow_ff.zip)) to whitelist FastForward extension on windows.
-2) Unzip and install the .reg file. \[Admin privledge maybe needed] \[You can open can read what it says by a text editor, if you have safety concern].
+2) Unzip and install the .reg file. \[Admin privledge maybe needed] [See why its neede here](https://stackoverflow.com/questions/24577024/install-chrome-extension-form-outside-the-chrome-web-store/48990515#48990515).
 3) Restart the browser.
 4) Download the [latest version of the extension](https://cdn.jsdelivr.net/gh/FastForwardTeam/releases/update/FastForward.crx).
 5) Open `chrome://extensions` and make sure developer mode mode is turned on, then drag and drop the FastForward.crx extension file you just downloaded into the page.
