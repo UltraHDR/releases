@@ -1,7 +1,19 @@
 Windows Registry Editor Version 5.00
 
-; This registry file whitelist FastForward to be used in Chrome.
-; Made by Cyberavater, edited for newer versions by Princess Mortix
+
+; +====================================+
+; !              HEADS UP!             !
+; ! IF YOU'RE SEEING THIS FILE IN YOUR !
+; ! BROWSER, PLEASE SAVE THIS FILE BY  !
+; !       RIGHT CLICK > SAVE AS...     !
+; !   THEN, RENAME ALLOW_FF.REG.TXT TO !
+; !              ALLOW_FF.REG          !
+; +====================================+
+
+
+
+; This registry file whitelist FastForward to be used in Chrome and Brave.
+; Made by Cyberavater, edited for newer versions & Brave by Princess Mortix
 ; See why it's needed to add these 2 keys here: https://stackoverflow.com/questions/24577024/install-chrome-extension-form-outside-the-chrome-web-store/48990515#48990515
 ; The old .zip file has been replaced to a direct .reg file because of transparency. You couldn't see the zip contents on GitHub.
 
@@ -13,5 +25,13 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\ExtensionInstallAllowlist]
 "1"="ilcacnomdmddpohoakmgcboiehclpkmj"
 ; This is the new key, with this key, users should now be able to use FastForward.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\BraveSoftware\Brave\ExtensionInstallWhitelist]
+"1"="ilcacnomdmddpohoakmgcboiehclpkmj"
+; This is the old policy key for Brave, kept for compatibility reasons.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\BraveSoftware\Brave\ExtensionInstallAllowlist]
+"1"="ilcacnomdmddpohoakmgcboiehclpkmj"
+; This key will allow Brave users to install FastForward crx without any problems.
 
 ; - Princess Mortix, the FastForward Team
