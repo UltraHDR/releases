@@ -8,12 +8,17 @@ Rels has older releases.
 # Installation Instructions
 
 
-## Google Chrome (Windows)
-1) Download the registry file ([as reg](https://cdn.jsdelivr.net/gh/FastForwardTeam/releases/winreg/allow_ff.reg)) to whitelist FastForward extension on windows.
+## Google Chrome, Brave
+### Windows
+1) Download the registry file ([as reg](https://cdn.statically.io/gh/FastForwardTeam/releases/main/winreg/allow_ff.reg)) to whitelist FastForward extension on Windows.
 2) Install the .reg file, administrator privilege will be needed to merge the registry. [See why you need to install/merge this file here.](https://stackoverflow.com/questions/24577024/install-chrome-extension-form-outside-the-chrome-web-store/48990515#48990515).
 3) Restart the browser.
 4) Download the [latest version of the extension](https://cdn.jsdelivr.net/gh/FastForwardTeam/releases/update/FastForward.crx).
 5) Open `chrome://extensions` and make sure developer mode mode is turned on, then drag and drop the FastForward.crx extension file you just downloaded into the page.
+
+### Linux
+1) Download the [latest version of the extension](https://cdn.jsdelivr.net/gh/FastForwardTeam/releases/update/FastForward.crx).
+2) Open `chrome://extensions` and make sure developer mode mode is turned on, then drag and drop the FastForward.crx extension file you just downloaded into the page.
 
 
 ## Kiwi (Android)
@@ -29,3 +34,8 @@ Rels has older releases.
 1) Install the chromium-web-store extension by following the instructions on [this page](https://github.com/NeverDecaf/chromium-web-store#installation).
 2) Download the [latest version of the extension](https://cdn.jsdelivr.net/gh/FastForwardTeam/releases/update/FastForward.crx).
 3) Open `chrome://extensions` and make sure developer mode mode is turned on, then drag and drop the FastForward.crx extension file you just downloaded into the page.
+
+## Edge
+1) The addon is available on the Microsoft store, click on the image below to be redirected to Microsoft Addons Store:
+
+[![FastForward](https://user-images.githubusercontent.com/585534/107280673-a5ece780-6a26-11eb-9cc7-9fa9f9f81180.png)](https://microsoftedge.microsoft.com/addons/detail/fastforward/ldcclmkclhomnpcnccgbgleikchbnecl)
