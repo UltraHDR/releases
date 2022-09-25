@@ -20,6 +20,15 @@ Rels has older releases.
 1) Download the [latest version of the extension](https://cdn.jsdelivr.net/gh/FastForwardTeam/releases/update/FastForward.crx).
 2) Open `chrome://extensions` and make sure developer mode mode is turned on, then drag and drop the FastForward.crx extension file you just downloaded into the page.
 
+### macOS
+1) Download the mobile config file to whitelist the FastForward extension
+ * https://github.com/FastForwardTeam/releases/raw/main/mobileconfig/Brave-macos-allowlist.mobileconfig
+ * https://github.com/FastForwardTeam/releases/raw/main/mobileconfig/Chrome-macos-allowlist.mobileconfig
+2) Install the .mobileconfig file
+3) Restart the browser.
+4) Download the [latest version of the extension](https://cdn.jsdelivr.net/gh/FastForwardTeam/releases/update/FastForward.crx).
+5) Open `chrome://extensions` and make sure developer mode mode is turned on, then drag and drop the FastForward.crx extension file you just downloaded into the page.
+
 
 ## Kiwi (Android)
 1) Install Kiwi from [the play store](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser).
