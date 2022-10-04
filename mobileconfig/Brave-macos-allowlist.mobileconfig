@@ -42,7 +42,7 @@
     </dict>
   </array>
   <key>PayloadDescription</key>
-  <string>FastForward - Brave</string>
+  <string>FastForward</string>
   <key>PayloadDisplayName</key>
   <string>Brave ExtensionInstallAllowlist for FastForward</string>
   <key>PayloadIdentifier</key>
